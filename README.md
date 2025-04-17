@@ -8,6 +8,7 @@ A TypeScript, Node.js, C#, and Python to help developers quickly integrate with 
 - **TypeScript** (`ts/`)
 - **Python** (`python/`)
 - **C# / .NET** (`csharp/`)
+- **Postman Collection** (`postman/`)
 - Axios (for HTTP requests)
 - Dotenv (for environment variable support)
 - Crypto (for HMAC signatures)
@@ -18,6 +19,7 @@ A TypeScript, Node.js, C#, and Python to help developers quickly integrate with 
 ## 📁 Folder Structure
 
 api-implementation-quickstart/
+
 ├── README.md
 ├── .gitignore
 ├── node/ # Node.js implementation  
