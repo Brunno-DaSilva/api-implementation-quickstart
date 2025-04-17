@@ -18,36 +18,37 @@ A TypeScript, Node.js, C#, and Python to help developers quickly integrate with 
 
 ## 📁 Folder Structure
 
+```bash
 api-implementation-quickstart/
-
 ├── README.md
 ├── .gitignore
-├── node/ # Node.js implementation  
-├── ts/ # TypeScript implementation  
-│ ├── src/
-│ │ ├── utils/
-│ │ ├── types/
-│ │ ├── start.ts
-│ │ ├── get-results.ts
-│ │ └── ...other endpoints
-│ ├── config/
-│ │ └── .env
-│ ├── package.json
-│ ├── tsconfig.json
-│ └── ...
-├── python/ # Python implementation
-│ ├── start.py
-│ ├── get_results.py
-│ ├── .env
-│ └── requirements.txt
-├── csharp/ # C# implementation
-│ ├── CaptureApiQuickstart.sln
-│ ├── Program.cs
-│ └── ... (organized by endpoint or feature)
-├── shared-assets/ # Optional: shared diagrams, payload examples, etc.
-│ ├── sample-payloads/
-│ └── architecture.png
+├── node/                      # Node.js implementation
+├── ts/                        # TypeScript implementation
+│   ├── src/
+│   │   ├── utils/
+│   │   ├── types/
+│   │   ├── start.ts
+│   │   ├── get-results.ts
+│   │   └── ...other endpoints
+│   ├── config/
+│   │   └── .env
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── ...
+├── python/                    # Python implementation
+│   ├── start.py
+│   ├── get_results.py
+│   ├── .env
+│   └── requirements.txt
+├── csharp/                    # C# implementation
+│   ├── CaptureApiQuickstart.sln
+│   ├── Program.cs
+│   └── ... (organized by endpoint or feature)
+├── shared-assets/            # Optional: shared diagrams, payload examples, etc.
+│   ├── sample-payloads/
+│   └── architecture.png
 └── LICENSE
+```
 
 ## 📄 License
 
